@@ -1,0 +1,74 @@
+{
+  "id": "cad6e28c-a048-4971-b2fe-ea68b2c6c24a",
+  "name": "Glacierhorn",
+  "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/Qmb4hUpVSRrPfRHx4VK6DDkfTKLap1y4p7bssTwowrHfJx/glacierhorn.png",
+  "type": "Ice",
+  "description": "A massive, icy mammoth with freezing powers that can immobilize opponents.",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Ice"
+    },
+    {
+      "trait_type": "Power",
+      "display_type": "boost_number",
+      "value": {
+        "attack": 85,
+        "defense": 85,
+        "speed": 70
+      }
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Ice"
+    },
+    {
+      "trait_type": "Weaknesses",
+      "value": ["Fire", "Electric"]
+    },
+    {
+      "trait_type": "Resistances",
+      "value": ["Water", "Earth"]
+    }
+  ],
+  "abilities": {
+    "attack": [
+      {
+        "name": "Frostbite Charge",
+        "damage": 45,
+        "description": "Rushes forward while emanating waves of absolute zero temperature, freezing everything in its path and causing brittle fractures in frozen targets.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/Qmb4hUpVSRrPfRHx4VK6DDkfTKLap1y4p7bssTwowrHfJx/frostbitecharge.png"
+      },
+      {
+        "name": "Icy Stomp",
+        "damage": 30,
+        "description": "Creates a shockwave of freezing energy that spreads across the ground, forming deadly ice spikes and reducing enemy movement speed.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/Qmb4hUpVSRrPfRHx4VK6DDkfTKLap1y4p7bssTwowrHfJx/icystomp.png"
+      }
+    ],
+    "defense": [
+      {
+        "name": "Ice Wall",
+        "block": 35,
+        "description": "Conjures a thick barrier of magically reinforced ice that absorbs thermal energy from attacks and can reflect beam-based abilities.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/Qmb4hUpVSRrPfRHx4VK6DDkfTKLap1y4p7bssTwowrHfJx/icewall.png"
+      },
+      {
+        "name": "Frozen Barrier",
+        "block": 25,
+        "description": "Surrounds the body with a layer of supercooled air that instantly freezes incoming projectiles and creates a numbing field around the user.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/Qmb4hUpVSRrPfRHx4VK6DDkfTKLap1y4p7bssTwowrHfJx/frozenbarrier.jpg"
+      }
+    ],
+    "healing": {
+      "name": "Cold Restoration",
+      "heal": 20,
+      "description": "Uses cryogenic energy to preserve and restore damaged tissue, creating an ice crystal matrix that accelerates healing and reduces inflammation.",
+      "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/Qmb4hUpVSRrPfRHx4VK6DDkfTKLap1y4p7bssTwowrHfJx/coldrestoration.png"
+    }
+  }
+}

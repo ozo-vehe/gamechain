@@ -1,0 +1,74 @@
+{
+  "id": "792b96f3-fc04-4b21-b78e-87f1c1f3e3a6",
+  "name": "Flamewyrm",
+  "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWPdaZC6iShWaau1AVwv587EacpMM9U4easJDfBeZFVca/flamewyrm.png",
+  "type": "Fire",
+  "description": "A fiery dragon with molten scales and the ability to summon firestorms.",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Power",
+      "display_type": "boost_number",
+      "value": {
+        "attack": 90,
+        "defense": 75,
+        "speed": 80
+      }
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Weaknesses",
+      "value": ["Water", "Ice"]
+    },
+    {
+      "trait_type": "Resistances",
+      "value": ["Earth", "Metal"]
+    }
+  ],
+  "abilities": {
+    "attack": [
+      {
+        "name": "Inferno Blast",
+        "damage": 45,
+        "description": "Unleashes a devastating concentrated beam of intense flames that can melt through solid steel. The heat generated creates a vacuum effect that pulls enemies into the blast radius.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWPdaZC6iShWaau1AVwv587EacpMM9U4easJDfBeZFVca/infernobust.jpg"
+      },
+      {
+        "name": "Flame Claw",
+        "damage": 30,
+        "description": "Enhances claws with searing flames that not only slash opponents but also leave burning wounds that continue to deal damage over time.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWPdaZC6iShWaau1AVwv587EacpMM9U4easJDfBeZFVca/flameclaw.jpg"
+      }
+    ],
+    "defense": [
+      {
+        "name": "Fire Shield",
+        "block": 35,
+        "description": "Creates a rotating barrier of pure flame that incinerates incoming projectiles and reflects energy-based attacks back at the attacker.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWPdaZC6iShWaau1AVwv587EacpMM9U4easJDfBeZFVca/fireshield.jpg"
+      },
+      {
+        "name": "Blazing Armor",
+        "block": 25,
+        "description": "Covers the body in a layer of compressed flame that hardens into a protective shell, reducing incoming damage while burning anything that makes contact.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWPdaZC6iShWaau1AVwv587EacpMM9U4easJDfBeZFVca/balzingamor.jpg"
+      }
+    ],
+    "healing": {
+      "name": "Ember Heal",
+      "heal": 20,
+      "description": "Channels internal flame energy to accelerate cellular regeneration, closing wounds and restoring vitality through controlled heat manipulation.",
+      "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWPdaZC6iShWaau1AVwv587EacpMM9U4easJDfBeZFVca/emberheal.png"
+    }
+  }
+}

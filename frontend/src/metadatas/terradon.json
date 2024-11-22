@@ -1,0 +1,74 @@
+{
+  "id": "d4072766-94cb-481b-8715-8c0c0b911f22",
+  "name": "Terradon",
+  "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmW8izeZ7g8xHinmKb92h2SVrK4WB6FM5pSaYGiP2DjjFk/terradon.png",
+  "type": "Earth",
+  "description": "A colossal stone beast with immense strength, capable of triggering earthquakes.",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Power",
+      "display_type": "boost_number",
+      "value": {
+        "attack": 95,
+        "defense": 90,
+        "speed": 60
+      }
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Weaknesses",
+      "value": ["Wind", "Water"]
+    },
+    {
+      "trait_type": "Resistances",
+      "value": ["Electric", "Fire"]
+    }
+  ],
+  "abilities": {
+    "attack": [
+      {
+        "name": "Earthquake Slam",
+        "damage": 50,
+        "description": "Strikes the ground with tremendous force, creating seismic waves that shatter the battlefield and knock enemies off balance while dealing massive damage to grounded targets.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmW8izeZ7g8xHinmKb92h2SVrK4WB6FM5pSaYGiP2DjjFk/earthquakeslam.jpg"
+      },
+      {
+        "name": "Rock Crush",
+        "damage": 35,
+        "description": "Compresses surrounding earth into dense projectiles that explode on impact, showering targets with razor-sharp stone shrapnel.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmW8izeZ7g8xHinmKb92h2SVrK4WB6FM5pSaYGiP2DjjFk/rockcrush.jpg"
+      }
+    ],
+    "defense": [
+      {
+        "name": "Rock Armor",
+        "block": 40,
+        "description": "Encases the body in layers of compressed minerals and stone, providing near-impenetrable defense that grows stronger as it absorbs impact energy.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmW8izeZ7g8xHinmKb92h2SVrK4WB6FM5pSaYGiP2DjjFk/rockarmor.jpg"
+      },
+      {
+        "name": "Stone Wall",
+        "block": 30,
+        "description": "Raises massive barriers of solid rock from the ground that can withstand extreme punishment and be used as tactical cover or offensive projectiles.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmW8izeZ7g8xHinmKb92h2SVrK4WB6FM5pSaYGiP2DjjFk/stonewall.jpg"
+      }
+    ],
+    "healing": {
+      "name": "Terra Regenerate",
+      "heal": 15,
+      "description": "Absorbs minerals from the surrounding earth to repair and strengthen the body, creating a crystalline healing matrix that gradually restores health.",
+      "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmW8izeZ7g8xHinmKb92h2SVrK4WB6FM5pSaYGiP2DjjFk/terraregenerate.png"
+    }
+  }
+}

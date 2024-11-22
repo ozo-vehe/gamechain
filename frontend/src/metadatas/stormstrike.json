@@ -1,0 +1,74 @@
+{
+  "id": "43eee169-186a-4ebc-b5ed-23338aab0678",
+  "name": "Stormstrike",
+  "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmZuZEWcCwF6E8VZESYBic1b3oF5CZrDjD13LNAY9gnv3z/stormstrike.png",
+  "type": "Air",
+  "description": "A swift and agile aerial creature that controls powerful winds and lightning.",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Power",
+      "display_type": "boost_number",
+      "value": {
+        "attack": 80,
+        "defense": 70,
+        "speed": 95
+      }
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Ultra Rare"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Weaknesses",
+      "value": ["Fire", "Metal"]
+    },
+    {
+      "trait_type": "Resistances",
+      "value": ["Water", "Earth"]
+    }
+  ],
+  "abilities": {
+    "attack": [
+      {
+        "name": "Lightning Strike",
+        "damage": 40,
+        "description": "Channels atmospheric electricity into a precise bolt of lightning that can chain between multiple targets and temporarily paralyze enemies with its electromagnetic charge.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmZuZEWcCwF6E8VZESYBic1b3oF5CZrDjD13LNAY9gnv3z/lightningstrike.jpg"
+      },
+      {
+        "name": "Wind Slash",
+        "damage": 35,
+        "description": "Creates razor-sharp blades of compressed air that cut through defenses and can be controlled remotely to attack from multiple angles.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmZuZEWcCwF6E8VZESYBic1b3oF5CZrDjD13LNAY9gnv3z/windslash.png"
+      }
+    ],
+    "defense": [
+      {
+        "name": "Wind Gust",
+        "block": 25,
+        "description": "Generates powerful updrafts that deflect incoming attacks and can be used to achieve temporary flight or create distance from enemies.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmZuZEWcCwF6E8VZESYBic1b3oF5CZrDjD13LNAY9gnv3z/windgust.jpg"
+      },
+      {
+        "name": "Air Shield",
+        "block": 20,
+        "description": "Forms a swirling vortex of high-pressure air that disperses energy attacks and creates a vacuum barrier against physical threats.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmZuZEWcCwF6E8VZESYBic1b3oF5CZrDjD13LNAY9gnv3z/airshield.jpg"
+      }
+    ],
+    "healing": {
+      "name": "Sky Breeze",
+      "heal": 15,
+      "description": "Uses purified air currents to restore stamina and vitality, clearing status effects and providing temporary immunity to airborne debuffs.",
+      "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmZuZEWcCwF6E8VZESYBic1b3oF5CZrDjD13LNAY9gnv3z/skybreeze.jpg"
+    }
+  }
+}

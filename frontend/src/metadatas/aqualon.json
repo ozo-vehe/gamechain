@@ -1,0 +1,74 @@
+{
+  "id": "80cf0539-9053-40b2-b712-83766c63f244",
+  "name": "Aqualon",
+  "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWy34rtS4BcMPHvGBFZ4oyRgioUgNG4w9EbEceqkiRwuv/aqualon.png",
+  "type": "Water",
+  "description": "A serpent-like sea monster with the power to control ocean currents.",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Power",
+      "display_type": "boost_number",
+      "value": {
+        "attack": 85,
+        "defense": 80,
+        "speed": 85
+      }
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Weaknesses",
+      "value": ["Electric", "Grass"]
+    },
+    {
+      "trait_type": "Resistances",
+      "value": ["Fire", "Ice"]
+    }
+  ],
+  "abilities": {
+    "attack": [
+      {
+        "name": "Tidal Wave",
+        "damage": 40,
+        "description": "Summons a massive wall of pressurized water that crashes down on opponents with the force of a thousand tons, creating a widespread area of effect damage.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWy34rtS4BcMPHvGBFZ4oyRgioUgNG4w9EbEceqkiRwuv/tidalwave.png"
+      },
+      {
+        "name": "Water Strike",
+        "damage": 35,
+        "description": "Launches precise jets of high-pressure water that can cut through solid rock, targeting multiple weak points simultaneously.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWy34rtS4BcMPHvGBFZ4oyRgioUgNG4w9EbEceqkiRwuv/waterstrike.png"
+      }
+    ],
+    "defense": [
+      {
+        "name": "Aqua Barrier",
+        "block": 30,
+        "description": "Forms a spherical shield of dense water that absorbs kinetic energy and disperses elemental attacks through molecular redistribution.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWy34rtS4BcMPHvGBFZ4oyRgioUgNG4w9EbEceqkiRwuv/aquabarrier.jpg"
+      },
+      {
+        "name": "Surging Waters",
+        "block": 20,
+        "description": "Creates a swirling vortex of water around the body that deflects incoming attacks and disorients nearby enemies with its powerful currents.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWy34rtS4BcMPHvGBFZ4oyRgioUgNG4w9EbEceqkiRwuv/surgingwaters.jpg"
+      }
+    ],
+    "healing": {
+      "name": "Oceanic Recovery",
+      "heal": 25,
+      "description": "Harnesses the life-giving properties of water to restore health, purifying toxins and accelerating natural healing through hydration enhancement.",
+      "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmWy34rtS4BcMPHvGBFZ4oyRgioUgNG4w9EbEceqkiRwuv/oceanicrecovery.jpg"
+    }
+  }
+}

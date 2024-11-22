@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import "https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.michroma {
+  font-family: 'Michroma', sans-serif;
+}

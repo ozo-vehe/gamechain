@@ -1,0 +1,74 @@
+{
+  "id": "9941e4e2-8333-44a9-add8-870b3553c023",
+  "name": "Dragonoid",
+  "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmUzZHi6pjwhSkPgT6NTQD19ZPDs7JjEkDzWhYhPTvisno/dragonoid.png",
+  "type": "Pyrus",
+  "description": "A powerful dragon warrior of fire, known for its incredible strength and burning spirit.",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Pyrus"
+    },
+    {
+      "trait_type": "Power",
+      "display_type": "boost_number",
+      "value": {
+        "attack": 95,
+        "defense": 80,
+        "speed": 85
+      }
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Weaknesses",
+      "value": ["Water", "Earth"]
+    },
+    {
+      "trait_type": "Resistances",
+      "value": ["Plant", "Light"]
+    }
+  ],
+  "abilities": {
+    "attack": [
+      {
+        "name": "Boosted Dragon",
+        "damage": 50,
+        "description": "Channels the primal power of ancient dragons into a devastating fire blast that grows stronger with each consecutive use.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmUzZHi6pjwhSkPgT6NTQD19ZPDs7JjEkDzWhYhPTvisno/boosteddragon.jpg"
+      },
+      {
+        "name": "Fire Tornado",
+        "damage": 45,
+        "description": "Creates a massive vortex of flames that pulls in enemies while bombarding them with superheated air and molten debris.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmUzZHi6pjwhSkPgT6NTQD19ZPDs7JjEkDzWhYhPTvisno/firetonado.jpg"
+      }
+    ],
+    "defense": [
+      {
+        "name": "Dragon Shield",
+        "block": 35,
+        "description": "Manifests the scales of an elder dragon as an impenetrable defense, growing stronger when health is low.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmUzZHi6pjwhSkPgT6NTQD19ZPDs7JjEkDzWhYhPTvisno/dragonshield.jpg"
+      },
+      {
+        "name": "Flame Armor",
+        "block": 30,
+        "description": "Wraps the body in dragon fire that acts as both armor and weapon, burning enemies that attempt close combat.",
+        "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmUzZHi6pjwhSkPgT6NTQD19ZPDs7JjEkDzWhYhPTvisno/flamearmor.png"
+      }
+    ],
+    "healing": {
+      "name": "Dragon Heart",
+      "heal": 25,
+      "description": "Taps into the immortal essence of dragons to rapidly regenerate health and temporarily boost all abilities.",
+      "image": "https://intellectual-emerald-elephant.myfilebase.com/ipfs/QmUzZHi6pjwhSkPgT6NTQD19ZPDs7JjEkDzWhYhPTvisno/dragonheart.jpg"
+    }
+  }
+}
