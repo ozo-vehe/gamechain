@@ -164,13 +164,15 @@ The project leverages Solidity to implement core functionalities. The two main c
 
 4. **Native Marketplace**  
    - Build an in-app marketplace for direct trades between players.
-   - Exchange of monsters and/or ability cards
+   - Exchange of monsters and ability cards
 
 5. **AI Integration**
-   - Integrate AI with different levels of difficult to simulate a more interactive and engaging battles
+   - Integrate AI with different levels of difficulty to simulate more interactive and engaging battles
 
 ---
 
 ## 🎥 **Demo Video** 
 
-https://github.com/user-attachments/assets/76965614-cb85-4567-8e2b-d4929f573fe7
+https://github.com/user-attachments/assets/b5fe3730-2959-40c2-91c0-e58a363ffc17
+
+
